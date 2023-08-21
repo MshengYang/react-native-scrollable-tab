@@ -1,6 +1,6 @@
 {
   "name": "react-native-scrollable-tab",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "base",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
