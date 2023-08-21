@@ -9,7 +9,6 @@ import {
   type NativeSyntheticEvent,
   type LayoutChangeEvent,
 } from 'react-native';
-
 import DefaultTabBar from './DefaultTabBar';
 import type { DefaultTabBarProps, ScrollableTabViewProps } from './type';
 

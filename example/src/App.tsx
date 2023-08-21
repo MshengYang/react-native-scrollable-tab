@@ -4,8 +4,6 @@ import { StyleSheet, View, Text } from 'react-native';
 import ScrollableTabView from 'react-native-scrollable-tab';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
   return (
     <View style={styles.container}>
       <ScrollableTabView

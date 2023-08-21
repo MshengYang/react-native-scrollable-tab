@@ -1,6 +1,6 @@
 {
-  "name": "react-native-scrollable-tab",
-  "version": "1.0.0",
+  "name": "@mshengyang/react-native-scrollable-tab",
+  "version": "1.0.1",
   "description": "base",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -40,13 +40,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://juejin.cn/user/950453706961463",
+  "repository": "https://github.com/MshengYang/react-native-scrollable-tab.git",
   "author": "MshengYang <yms@cdhncy.com> (https://juejin.cn/user/950453706961463)",
   "license": "MIT",
   "bugs": {
-    "url": "https://juejin.cn/user/950453706961463/issues"
+    "url": "https://github.com/MshengYang/react-native-scrollable-tab/issues"
   },
-  "homepage": "https://juejin.cn/user/950453706961463#readme",
+  "homepage": "https://github.com/MshengYang/react-native-scrollable-tab",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
