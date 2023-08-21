@@ -11,11 +11,36 @@ npm install react-native-scrollable-tab
 ## Usage
 
 ```js
-import { multiply } from 'react-native-scrollable-tab';
+import ScrollableTabView from 'react-native-scrollable-tab';
 
 // ...
 
-const result = await multiply(3, 7);
+<ScrollableTabView
+        initialPage={1}
+        tabBarUnderlineStyle={{
+          backgroundColor: '#0BC2D2',
+        }}
+        onChangeTab={(page) => {
+          console.log('17=>', page);
+        }}
+        tabBarActiveTextColor={'#0BC2D2'}
+        style={{
+          borderWidth: 0,
+          marginTop: 8,
+        }}
+        tabs={['定位(1)', '定位(1)', '定位(1)']}
+        contentProps={{ style: { borderWidth: 0 } }}
+      >
+        <View style={{ flex: 1 }}>
+          <Text>1</Text>
+        </View>
+        <View style={{ flex: 1 }}>
+          <Text>2</Text>
+        </View>
+        <View style={{ flex: 1 }}>
+          <Text>3</Text>
+        </View>
+      </ScrollableTabView>
 ```
 
 ## Contributing
