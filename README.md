@@ -1,6 +1,5 @@
 # @mshengyang/react-native-scrollable-tab
 
-一个
 
 ## Installation
 
