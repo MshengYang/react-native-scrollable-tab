@@ -31,6 +31,7 @@ const ScrollableTabView = (props: ScrollableTabViewProps) => {
     tabBarBackgroundColor,
     tabBarActiveTextColor,
     tabBarInactiveTextColor,
+    tabStyle,
     contentProps = {},
     scrollWithoutAnimation = false,
     locked = false,
@@ -277,8 +278,8 @@ const ScrollableTabView = (props: ScrollableTabViewProps) => {
     if (tabBarUnderlineStyle) {
       TabProps.tabBarUnderlineStyle = tabBarUnderlineStyle;
     }
-    if (style) {
-      TabProps.style = style;
+    if (tabStyle) {
+      TabProps.style = tabStyle;
     }
     if (renderTabBar === false) {
       return null;
